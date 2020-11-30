@@ -1,7 +1,7 @@
 import { getCoordinates } from "./utils/georeference";
 
 // Do not add the async keyword here, as it does nothing
-describe.only("getCoordinates", () => {
+describe("getCoordinates", () => {
   // You can provide the async keyword to the test case
   it("retrieves the coordinates of a city", async () => {
     const city = "Guadalajara";

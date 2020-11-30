@@ -45,6 +45,9 @@ async function updatePost(post, user, newName) {
 // }
 
 describe("Posts", () => {
+  it("Test", () => {
+    expect(true).toBe(true);
+  })
   // TODO write the tests cases, here are some examples of tests you can write:
   // - Check if the received post has the expected structure
   // - Test if a given user can write to a post, e.g.:

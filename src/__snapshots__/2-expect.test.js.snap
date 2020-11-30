@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect examples checks against expected values 1`] = `
+Object {
+  "active": true,
+  "id": 1234,
+  "isSubscribed": false,
+  "name": "foo bar",
+  "preferences": Object {
+    "theme": "dark",
+  },
+  "skills": Array [
+    "code",
+    "teach",
+    "learn",
+  ],
+  "url": "https://github.com/foobar",
+}
+`;
